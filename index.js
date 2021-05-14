@@ -71,7 +71,7 @@ function gameEngine() {
         if(Score > hiscoreval){
             hiscoreval = Score;         
             localStorage.setItem("hiscore", JSON.stringify(hiscoreval))
-            hiscoreBox.innerHTML = "High score: " + hiscoreval+1;
+            hiscoreBox.innerHTML = "High score: " + hiscoreval;
         }
         let b = 16;
         food = {x: Math.round(a+(b-a)*Math.random()),y: Math.round(a+(b-a)*Math.random())}
