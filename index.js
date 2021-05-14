@@ -140,7 +140,7 @@ window.addEventListener('keydown', e => {
             inputDir.y = -1;
             break;
 
-            case "a":
+            case "s":
               //  console.log("ArrowDown");
 
                 inputDir.x = 0;
@@ -148,14 +148,14 @@ window.addEventListener('keydown', e => {
                 break;
 
 
-                case "s":
+                case "d":
            // console.log("ArrowRight");
 
             inputDir.x = 1;
             inputDir.y = 0;
             break;
 
-            case "d":
+            case "a":
             //console.log("ArrowLeft");
             inputDir.x = -1;
             inputDir.y = 0;
