@@ -134,13 +134,13 @@ window.addEventListener('keydown', e => {
     moveaudio.play();
                
     switch (e.key) {
-        case "ArrowUp":
+        case "w":
             // console.log("ArrowUp");
             inputDir.x = 0;
             inputDir.y = -1;
             break;
 
-            case "ArrowDown":
+            case "a":
               //  console.log("ArrowDown");
 
                 inputDir.x = 0;
@@ -148,14 +148,14 @@ window.addEventListener('keydown', e => {
                 break;
 
 
-                case "ArrowRight":
+                case "s":
            // console.log("ArrowRight");
 
             inputDir.x = 1;
             inputDir.y = 0;
             break;
 
-            case "ArrowLeft":
+            case "d":
             //console.log("ArrowLeft");
             inputDir.x = -1;
             inputDir.y = 0;
